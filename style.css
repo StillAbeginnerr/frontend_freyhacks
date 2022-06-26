@@ -1,0 +1,14 @@
+.img-logo{
+    height: 250px;
+    width: 250px;
+    transition: transform 0.8s;
+}
+
+.img-logo:hover{
+    transform: scale(1.1);
+}
+
+.position{
+    position: relative;
+    bottom: 80px;
+}

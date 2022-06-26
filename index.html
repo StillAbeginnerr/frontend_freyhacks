@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="./assets/images/iconimage" type="image">
+<link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <icon></icon>
+    <title>Trans Travel</title>
+</head>
+<body>
+  
+    <nav
+    class="
+      flex flex-wrap
+      items-center
+      justify-between
+      w-full
+      py-4
+      md:py-0
+      px-4
+      text-lg text-gray-700
+      bg-white
+    "
+  >
+  
+  <div>
+    <img src="./assets//images/title" alt="logo" class="img-logo">
+  </div>
+
+     <svg
+        xmlns="http://www.w3.org/2000/svg"
+        id="menu-button"
+        class="h-6 w-6 cursor-pointer md:hidden block"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16"
+        />
+      </svg>
+   
+   <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+      <ul
+        class="
+          pt-4
+          text-base text-gray-700
+          md:flex
+          md:justify-between 
+          md:pt-0
+      position ">
+        <li>
+          <a class="md:p-4 py-2 block hover:text-blue-400" href="#"
+            >Account</a
+          >
+        </li>
+        <li>
+          <a class="md:p-4 py-2 block hover:text-blue-400" href="#"
+            >Trip Planner</a
+          >
+        </li>
+
+        <li>
+          <a class="md:p-4 py-2 block hover:text-blue-400" href="#"
+            >Blog</a
+          >
+        </li>
+        <li>
+          <a
+            class="md:p-4 py-2 block hover:text-blue-400 text-blue-500"
+            href="#"
+            >Get Started</a
+          >
+        </li>
+      </ul>
+    </div>
+</nav>
+<script src="./assets/js/main.js"></script>
+</body>
+</html>
